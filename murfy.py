@@ -26,6 +26,7 @@ def config(*args, **kwargs):
 		return cp.get(kwargs['s'], kwargs['o'])
 
 if __name__ == '__main__':
+	os.chdir(os.path.dirname(__file__))
 	from gui import Main
 	app = QApplication(sys.argv)
 	w_main = Main()
