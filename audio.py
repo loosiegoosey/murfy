@@ -5,5 +5,3 @@
 __author__ = 'Albion von Darx'
 __name__ = 'MuRFY - audio'
 
-class Audio():
-	pass
